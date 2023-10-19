@@ -2,36 +2,39 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;;
 }
 
-body {
-    background-color: #E7E7E7;
-    padding-top: 100px;
+body{
+    background-color: rgb(169, 198, 188);
+    padding-top: 80px;
 }
 
 header{
-    display: flex ;
+    display: flex;
     align-items: center;
     margin-bottom: 40px;
 }
 
-header img{
+header img {
     height: 36px;
     margin-right: 16px;
+
 }
 
 header h1 {
-    font-size: 40px;
+    font-size: 36px;
     font-weight: bold;
 }
-.container{
+
+.container {
     max-width: 960px;
     width: 100%;
     margin: 0 auto;
+
 }
 
-form{
+form {
     display: flex;
     max-width: 640px;
     width: 100%;
@@ -39,59 +42,40 @@ form{
     margin-bottom: 56px;
 }
 
-form input{
-    color: #000;
-    font-size: 24px;
+form input {
+    font-size: 20px;
+    background-color: #fff;
     border: none;
- border-bottom: 2px solid #000;
- padding: 8px;
-}
+    border-bottom: 2px solid #000 ;
+    font-weight: 100;
+    padding: 8px;
+ }
 
 form button {
-    background-color: #009432;
+    background-color: blue;
     color: #fff;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     border: none;
     cursor: pointer;
     padding: 8px;
 }
 
-table{
+table {
     width: 100%;
-
+   
 }
-table th{
+
+table th {
     border-bottom: 2px solid #000;
-    padding: 16px;
+    padding: 12px;
     font-size: 24px;
     font-weight: bold;
 }
 
-table td {
+tbody td {
+    padding: 10px 0;
     text-align: center;
     font-size: 18px;
-    padding: 16px 0;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
-}
-
-table td img {
-    width: 30px;
-}
-
-.Resultado {
-    padding: 8px;
-    font-weight: bold;
-    color: #fff;
-    background-color: #000;
-    border-radius: 3px;
-}
-
-.Aprovado {
-    background-color: #009432;
- 
-}
-
-.Reprovado {
-    background-color: red;
+    border-bottom: 1px solid rgba (0 , 0 , 0 , 0.1);
 }
